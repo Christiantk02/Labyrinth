@@ -13,7 +13,7 @@ else:
     while running:
         pygame.event.pump()  
 
-        x_axis = joystick.get_axis(0)*-1
+        x_axis = joystick.get_axis(0)
         y_axis = joystick.get_axis(1)*-1
 
         print(f"X: {x_axis:.2f}, Y: {y_axis:.2f}")
